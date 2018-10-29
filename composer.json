@@ -1,0 +1,25 @@
+{
+    "name": "sunfoxcz/smartee",
+    "description": "Inplace Smarty replacement using Latte template engine",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomas Jacik",
+            "email": "tomas@jacik.cz"
+        }
+    ],
+    "require": {
+        "latte/latte": "^2.4"
+    },
+    "require-dev": {
+        "nette/tester": "^2.1",
+        "tracy/tracy": "^2.5",
+        "smarty/smarty": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sunfox\\Smartee\\": "src"
+        }
+    }
+}
